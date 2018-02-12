@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3"
+    tools:context="com.example.app.myapp.login">
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:layout_marginTop="133dp"
+        android:hint="@string/user"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:text="@string/log1"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="@string/pass1"
+        android:inputType="textVisiblePassword"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/forgot"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Forgot Password?"
+        android:textSize="20dp" />
+
+</RelativeLayout>
